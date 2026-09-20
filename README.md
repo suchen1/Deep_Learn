@@ -17,6 +17,7 @@
 | NumPy | 2.4.6 |
 | scikit-learn | 1.9.0 |
 | Matplotlib | 3.11.0 |
+| torchsummary | 1.5.1 |
 | 解释器 | Anaconda（`C:\ProgramData\anaconda3`） |
 | IDE | PyCharm |
 
@@ -63,6 +64,8 @@ Deep Learn/
 | Day06 | ANN 案例收尾 + CNN 卷积与池化 | ⬜ 未开始 |
 | Day07 | CNN 图像分类实战 + RNN 文本生成 | ⬜ 未开始 |
 
+> 当前进度：**Day04 P47 已完成**（参数初始化、神经网络搭建），P48–P54 待进行。
+
 ## 运行方式
 
 命令行直接运行单个脚本：
@@ -83,6 +86,7 @@ python 张量/01_张量基本创建方式.py
 | `numpy` | `张量/05` 起 |
 | `scikit-learn` | `张量/12` 起（生成回归数据集、对照闭式解） |
 | `matplotlib` | `张量/12` 起（损失曲线、拟合结果可视化） |
+| `torchsummary` | `神经网络/02` 起（打印模型结构与参数量） |
 
 ## 说明
 
