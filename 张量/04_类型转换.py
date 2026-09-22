@@ -1,5 +1,4 @@
 import torch
-from nltk.book import text3
 
 # type(torch支持的类型)
 # half()/double()/float()/int()/long()/short()/char()/byte()/bool()
