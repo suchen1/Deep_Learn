@@ -15,7 +15,7 @@ import time
 import matplotlib.pyplot as plt
 from torchsummary import summary
 
-batch_size = 10
+batch_size = 8
 
 def creat_data():
     train_data = CIFAR10(root='./data', train=True, transform=transforms.ToTensor(), download=False)
@@ -36,7 +36,7 @@ class ImgMode(nn.Module):
         self.fc2 = nn.Linear(in_features=2048, out_features=1024)
         self.fc3 = nn.Linear(in_features=1024, out_features=512)
         self.fc4 = nn.Linear(in_features=512, out_features=10)
-        self.dropout = nn.Dropout(p=0.3)
+        self.dropout = nn.Dropout(p=0.55)
 
     def forward(self, x):
         x = self.pool1(torch.relu(self.conv1(x)))
@@ -47,7 +47,9 @@ class ImgMode(nn.Module):
         # x.view(x.size(0), -1)
         # print(f'x.shape = {x.shape}')  # (8,576)
         x = F.leaky_relu(self.fc1(x))
+        x = self.dropout(x)
         x = F.leaky_relu(self.fc2(x))
+        x = self.dropout(x)
         x = F.leaky_relu(self.fc3(x))
         x = self.fc4(x)
         return x
@@ -56,8 +58,8 @@ def train(train_data,device):
     dataLoader = DataLoader(train_data, batch_size=batch_size)
     model = ImgMode().to(device)
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=0.0001)
-    epochs = 20
+    optimizer = optim.Adam(model.parameters(), lr=0.0001,betas=[0.8,0.999])
+    epochs = 25
     model.train()
     for epoch in range(epochs):
         total_loss,total_samples,correct,start = 0,0,0,time.time()
