@@ -39,7 +39,7 @@ class LyricsDataset(torch.utils.data.Dataset):
 
 class LyricsModel(nn.Module):
     def __init__(self,vocab_size):
-        super.__init__()
+        super().__init__()
         self.ebd = nn.Embedding(num_embeddings=vocab_size, embedding_dim=256)
         self.rnn = nn.RNN(256, 256, num_layers=1,batch_first=True)
         self.out = nn.Linear(256, vocab_size)
@@ -50,12 +50,58 @@ class LyricsModel(nn.Module):
         output = self.out(output)
         return output, h1
 
+    def init_hidden(self, bs):
+        return torch.zeros(1, bs, self.rnn.hidden_size,
+                           device=self.ebd.weight.device)  # 跟着模型走
+
+
+def train(device):
+    batch_size = 32
+    word_to_index, corpus_index, unique_word, vocab_size = build_vocab()
+    lyricsdataset = LyricsDataset(corpus_index, 16)
+    model = LyricsModel(vocab_size).to(device)
+    criterion = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(), lr=0.001)
+    dataLoader = DataLoader(lyricsdataset, batch_size=batch_size, shuffle=True)
+    epochs = 50
+    for epoch in range(epochs):
+        total_loss, total_samples, start = 0, 0, time.time()
+        for x, y in dataLoader:
+            x, y = x.to(device), y.to(device)           # 数据搬过去
+            hidden = model.init_hidden(x.size(0))  # 初始化隐藏状态
+            y_pred, hidden = model(x, hidden)
+            loss = criterion(y_pred.view(-1, vocab_size), y.view(-1))
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+            total_loss += loss.item() * len(y)
+            total_samples += len(y)
+
+        print(f"Epoch {epoch + 1}/{epochs}, Loss: {total_loss / total_samples:.4f}, Time: {time.time() - start:.2f}s")
+    torch.save(model.state_dict(), './model/lyrics.pth')
+
+def evaluate(startword,sentence_len,device):
+    word_to_index, corpus_index, unique_word, vocab_size = build_vocab()
+    model = LyricsModel(vocab_size).to(device)
+    model.load_state_dict(torch.load('./model/lyrics.pth', map_location=device))
+    model.eval()
+    # input = torch.tensor([word_to_index[startword]], device=device).unsqueeze(0)  # (1,1)
+    input = word_to_index[startword]
+    hidden = model.init_hidden(1)
+    generated_words = [startword]
+    with torch.no_grad():
+        for _ in range(sentence_len):
+            output, hidden = model(torch.tensor([[input]],device=device), hidden)
+            # next_word_index = torch.argmax(output[:, -1, :], dim=-1).item()
+            next_word_index = torch.argmax(output)
+            next_word = unique_word[next_word_index]
+            generated_words.append(next_word)
+            input = torch.tensor([[next_word_index]], device=device)  # (1,1)
+
+    for idx in generated_words:
+        print(idx,end=" ")
 
 if __name__ == '__main__':
-    word_to_index, corpus_index, unique_word, vocab_size = build_vocab()
-    print(f"vocab_size = {vocab_size}")
-    print(f"word_to_index = {word_to_index}")
-    print(f"corpus_index = {corpus_index[:10]}")  # 打印前10个词的索引
-    lyricsdataset = LyricsDataset(corpus_index, 5)
-    print(len(lyricsdataset))
-    print(lyricsdataset[0])
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # train(device)
+    evaluate("整夜", 150, device)
