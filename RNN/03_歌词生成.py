@@ -104,4 +104,4 @@ def evaluate(startword,sentence_len,device):
 if __name__ == '__main__':
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     # train(device)
-    evaluate("整夜", 150, device)
+    evaluate("余", 150, device)
