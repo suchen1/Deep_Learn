@@ -1,0 +1,234 @@
+[
+ {
+  "i": 0,
+  "style": [],
+  "text": "XXXXXX"
+ },
+ {
+  "i": 1,
+  "style": [],
+  "text": "——副标题（如有副标题）"
+ },
+ {
+  "i": 2,
+  "style": [],
+  "text": "作者 学号"
+ },
+ {
+  "i": 3,
+  "style": [],
+  "text": "（电子邮件邮箱******@**********）"
+ },
+ {
+  "i": 4,
+  "style": [],
+  "text": ""
+ },
+ {
+  "i": 5,
+  "style": [],
+  "text": "摘要：概述报告内容、实验完成情况，要求简明精炼、忠于原文、突出特色，摘要应具有独立性，即不阅读全文，也是获得文中必要的信息。"
+ },
+ {
+  "i": 6,
+  "style": [],
+  "text": ""
+ },
+ {
+  "i": 7,
+  "style": [],
+  "text": "关键词：关键词1、关键词2、关键词3、关键词4"
+ },
+ {
+  "i": 8,
+  "style": [],
+  "text": ""
+ },
+ {
+  "i": 9,
+  "style": [
+   "a0"
+  ],
+  "text": "引言"
+ },
+ {
+  "i": 10,
+  "style": [],
+  "text": "引言一般简略介绍实验背景、实验总体情况、碰到的问题和解决思路等。"
+ },
+ {
+  "i": 11,
+  "style": [
+   "a0"
+  ],
+  "text": "一级标题"
+ },
+ {
+  "i": 12,
+  "style": [],
+  "text": "正文内容XXXXXXXX"
+ },
+ {
+  "i": 13,
+  "style": [
+   "a0"
+  ],
+  "text": "一级标题"
+ },
+ {
+  "i": 14,
+  "style": [],
+  "text": "正文内容"
+ },
+ {
+  "i": 15,
+  "style": [
+   "a1"
+  ],
+  "text": "二级标题"
+ },
+ {
+  "i": 16,
+  "style": [],
+  "text": "正文内容"
+ },
+ {
+  "i": 17,
+  "style": [
+   "a1"
+  ],
+  "text": "二级标题"
+ },
+ {
+  "i": 18,
+  "style": [],
+  "text": "正文内容"
+ },
+ {
+  "i": 19,
+  "style": [
+   "a1"
+  ],
+  "text": "二级标题"
+ },
+ {
+  "i": 20,
+  "style": [
+   "a2"
+  ],
+  "text": "三级标题"
+ },
+ {
+  "i": 21,
+  "style": [
+   "af0"
+  ],
+  "text": "正文内容"
+ },
+ {
+  "i": 22,
+  "style": [],
+  "text": ""
+ },
+ {
+  "i": 23,
+  "style": [
+   "a2"
+  ],
+  "text": "三级标题"
+ },
+ {
+  "i": 24,
+  "style": [
+   "af0"
+  ],
+  "text": "正文内容"
+ },
+ {
+  "i": 25,
+  "style": [
+   "af0"
+  ],
+  "text": ""
+ },
+ {
+  "i": 26,
+  "style": [
+   "a0"
+  ],
+  "text": "一级标题"
+ },
+ {
+  "i": 27,
+  "style": [
+   "a0"
+  ],
+  "text": "一级标题"
+ },
+ {
+  "i": 28,
+  "style": [
+   "a0"
+  ],
+  "text": "结语"
+ },
+ {
+  "i": 29,
+  "style": [],
+  "text": "结语是对报告内容的总结。"
+ },
+ {
+  "i": 30,
+  "style": [
+   "6"
+  ],
+  "text": "   "
+ },
+ {
+  "i": 31,
+  "style": [
+   "af"
+  ],
+  "text": "ZHU Z, DONG S. A text hybrid clustering algorithm based on HowNet semantics [C]// ICAMCS 2011: 2011 International Conference on Advanced Materials and Computer Science. Zurich: Trans Tech Publications Ltd, 2011:474-476."
+ },
+ {
+  "i": 32,
+  "style": [
+   "af"
+  ],
+  "text": "董强,董振东.知网简介[EB/OL]. [2013-01-29]. http://www.keenage.com/. (DONG Q, DONG Z D. HowNet knowledge database [EB/OL]. [2013-01-29]. http://www.keenage.com/.)"
+ },
+ {
+  "i": 33,
+  "style": [
+   "af"
+  ],
+  "text": "王小林,王义.改进的基于知网的词语相似度算法[J].计算机应用,2011,36(11):3075-3078. (WANG X L, WANG Y. Improved word similarity algorithm based on HowNet [J]. Journal of Computer Applications, 2011, 31(11): 3075-3077.)"
+ },
+ {
+  "i": 34,
+  "style": [
+   "af"
+  ],
+  "text": "International Federation of Library Association and Institutions. Names of Persons: national usages for entry in catalogues [M].3rd ed. London: IFLA International Office for UBC, 1997."
+ },
+ {
+  "i": 35,
+  "style": [
+   "af"
+  ],
+  "text": "HAN J W, KAMBER M. 数据挖掘:概念与技术[M].范明,孟小峰,译.2版.北京: 机械工业出版社,2007: 263-266. (HAN J W, KAMBER M. Data mining: concepts and techniques [M]. FAN M, MENG X F, translated. 2nd ed. Beijing: China Machine Press, 2007: 263-266.)"
+ },
+ {
+  "i": 36,
+  "style": [
+   "af"
+  ],
+  "text": "LARSEN B, AONE C. Fast and effective text mining using linear-time document clustering [C]// Proceedings of the fifth ACM SIGKDD international conference on Knowledge discovery and data mining. New York: ACM, 1999: 16-22."
+ },
+ {
+  "i": 37,
+  "style": [],
+  "text": ""
+ }
+]

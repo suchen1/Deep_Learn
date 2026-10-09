@@ -1,0 +1,12 @@
+﻿序,层名,类型,超参,输出形状,参数量,感受野
+1,conv1,Conv2d,"in=3, out=32, k=3, s=1, p=0",32x30x30,896,3
+2,pool1,MaxPool2d,"k=2, s=2",32x15x15,0,4
+3,conv2,Conv2d,"in=32, out=128, k=3, s=1, p=0",128x13x13,36992,8
+4,pool2,MaxPool2d,"k=2, s=2",128x6x6,0,10
+5,conv3,Conv2d,"in=128, out=256, k=3, s=1, p=0",256x4x4,295168,18
+6,pool3,MaxPool2d,"k=2, s=2",256x2x2,0,22
+7,fc1,Linear,"in=1024, out=2048",2048,2099200,22
+8,fc2,Linear,"in=2048, out=1024",1024,2098176,22
+9,fc3,Linear,"in=1024, out=512",512,524800,22
+10,fc4,Linear,"in=512, out=10",10,5130,22
+11,dropout,Dropout,p=0.55,1024,0,22

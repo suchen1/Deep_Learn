@@ -1,0 +1,160 @@
+=== STYLES ===
+{"id": "a3", "type": "", "name": ["Normal"], "basedOn": [], "next": [], "sz": ["20"], "szCs": ["20"], "eastAsia": ["宋体", "en-US"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "a4", "type": "", "name": ["Default Paragraph Font"], "basedOn": [], "next": [], "sz": [], "szCs": [], "eastAsia": [], "ascii": [], "spacing": [], "ind": []}
+{"id": "a5", "type": "dxa", "name": ["Normal Table"], "basedOn": [], "next": [], "sz": [], "szCs": [], "eastAsia": [], "ascii": [], "spacing": [], "ind": []}
+{"id": "a6", "type": "", "name": ["No List"], "basedOn": [], "next": [], "sz": [], "szCs": [], "eastAsia": [], "ascii": [], "spacing": [], "ind": []}
+{"id": "FigureCaption", "type": "", "name": ["Figure Caption"], "basedOn": ["a3"], "next": [], "sz": ["16"], "szCs": ["16"], "eastAsia": [], "ascii": [], "spacing": [], "ind": []}
+{"id": "a7", "type": "", "name": ["annotation reference"], "basedOn": [], "next": [], "sz": ["21"], "szCs": ["21"], "eastAsia": [], "ascii": [], "spacing": [], "ind": []}
+{"id": "a8", "type": "", "name": ["annotation text"], "basedOn": ["a3"], "next": [], "sz": ["18"], "szCs": ["24"], "eastAsia": ["zh-CN"], "ascii": [], "spacing": ["w:line=\"312\" w:lineRule=\"auto\""], "ind": ["w:firstLineChars=\"200\" w:firstLine=\"200\""]}
+{"id": "a9", "type": "", "name": ["批注文字 字符"], "basedOn": ["a4"], "next": [], "sz": ["20"], "szCs": ["20"], "eastAsia": ["宋体", "en-US"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "1", "type": "", "name": ["批注文字 字符1"], "basedOn": [], "next": [], "sz": ["18"], "szCs": [], "eastAsia": ["宋体"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "aa", "type": "", "name": ["摘要关键词"], "basedOn": [], "next": ["a3"], "sz": ["18"], "szCs": ["21"], "eastAsia": ["楷体_GB2312"], "ascii": ["Times New Roman"], "spacing": ["w:line=\"312\" w:lineRule=\"auto\""], "ind": []}
+{"id": "Char", "type": "", "name": ["摘要关键词 Char"], "basedOn": [], "next": [], "sz": ["18"], "szCs": ["21"], "eastAsia": ["楷体_GB2312"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "ab", "type": "", "name": ["Balloon Text"], "basedOn": ["a3"], "next": [], "sz": ["18"], "szCs": ["18"], "eastAsia": [], "ascii": ["宋体"], "spacing": [], "ind": []}
+{"id": "ac", "type": "", "name": ["批注框文本 字符"], "basedOn": ["a4"], "next": [], "sz": ["18"], "szCs": ["18"], "eastAsia": ["宋体", "en-US"], "ascii": ["宋体"], "spacing": [], "ind": []}
+{"id": "a2", "type": "", "name": ["三级标题"], "basedOn": [], "next": ["a3"], "sz": ["18"], "szCs": ["28"], "eastAsia": ["楷体_GB2312"], "ascii": ["Calibri"], "spacing": ["w:beforeLines=\"50\" w:before=\"50\" w:afterLines=\"50\" w:after=\"50\" w:line=\"312\" w:lineRule=\"auto\""], "ind": []}
+{"id": "a1", "type": "", "name": ["二级标题"], "basedOn": [], "next": ["a3"], "sz": ["18"], "szCs": ["18"], "eastAsia": ["黑体"], "ascii": ["Times New Roman"], "spacing": ["w:beforeLines=\"80\" w:before=\"80\" w:afterLines=\"80\" w:after=\"80\" w:line=\"312\" w:lineRule=\"auto\""], "ind": []}
+{"id": "Char1", "type": "", "name": ["二级标题 Char"], "basedOn": [], "next": [], "sz": ["18"], "szCs": ["18"], "eastAsia": ["黑体"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "Char0", "type": "", "name": ["三级标题 Char"], "basedOn": [], "next": [], "sz": ["18"], "szCs": ["28"], "eastAsia": ["楷体_GB2312"], "ascii": ["Calibri"], "spacing": [], "ind": []}
+{"id": "ad", "type": "", "name": ["Strong"], "basedOn": [], "next": [], "sz": ["15"], "szCs": [], "eastAsia": ["宋体"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "a", "type": "", "name": ["固定"], "basedOn": [], "next": [], "sz": ["18"], "szCs": ["21"], "eastAsia": ["楷体_GB2312"], "ascii": ["Times New Roman"], "spacing": ["w:line=\"312\" w:lineRule=\"auto\""], "ind": []}
+{"id": "a0", "type": "", "name": ["一级标题"], "basedOn": [], "next": ["a3"], "sz": ["24"], "szCs": [], "eastAsia": ["宋体"], "ascii": ["Times New Roman"], "spacing": ["w:beforeLines=\"110\" w:before=\"110\" w:afterLines=\"110\" w:after=\"110\""], "ind": ["w:rightChars=\"100\" w:right=\"100\""]}
+{"id": "Char2", "type": "", "name": ["一级标题 Char"], "basedOn": [], "next": [], "sz": ["24"], "szCs": [], "eastAsia": ["宋体"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "2", "type": "", "name": ["固定2"], "basedOn": [], "next": ["aa"], "sz": ["18"], "szCs": ["21"], "eastAsia": ["楷体_GB2312"], "ascii": ["Times New Roman"], "spacing": ["w:line=\"312\" w:lineRule=\"auto\""], "ind": []}
+{"id": "3", "type": "", "name": ["固定3"], "basedOn": [], "next": ["aa"], "sz": ["18"], "szCs": [], "eastAsia": ["黑体"], "ascii": ["Times New Roman"], "spacing": ["w:line=\"360\" w:lineRule=\"auto\""], "ind": []}
+{"id": "4", "type": "", "name": ["固定4"], "basedOn": [], "next": ["aa"], "sz": ["18"], "szCs": ["21"], "eastAsia": ["黑体"], "ascii": ["Times New Roman"], "spacing": ["w:line=\"360\" w:lineRule=\"auto\""], "ind": []}
+{"id": "5", "type": "", "name": ["固定5"], "basedOn": [], "next": ["aa"], "sz": ["18"], "szCs": ["21"], "eastAsia": ["黑体"], "ascii": ["Times New Roman"], "spacing": ["w:line=\"360\" w:lineRule=\"auto\""], "ind": []}
+{"id": "6", "type": "", "name": ["固定6"], "basedOn": [], "next": [], "sz": ["18"], "szCs": ["21"], "eastAsia": ["黑体"], "ascii": ["Times New Roman"], "spacing": ["w:line=\"360\" w:lineRule=\"auto\""], "ind": []}
+{"id": "ae", "type": "", "name": ["Hyperlink"], "basedOn": [], "next": [], "sz": [], "szCs": [], "eastAsia": [], "ascii": [], "spacing": [], "ind": []}
+{"id": "6Char", "type": "", "name": ["固定6 Char"], "basedOn": [], "next": [], "sz": ["18"], "szCs": ["21"], "eastAsia": ["黑体"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "af", "type": "", "name": ["文献列表"], "basedOn": [], "next": [], "sz": ["15"], "szCs": [], "eastAsia": ["宋体"], "ascii": ["Times New Roman"], "spacing": ["w:line=\"312\" w:lineRule=\"auto\""], "ind": []}
+{"id": "Char3", "type": "", "name": ["文献列表 Char"], "basedOn": [], "next": [], "sz": ["15"], "szCs": [], "eastAsia": ["宋体"], "ascii": ["Times New Roman"], "spacing": [], "ind": []}
+{"id": "af0", "type": "", "name": ["List Paragraph"], "basedOn": ["a3"], "next": [], "sz": [], "szCs": [], "eastAsia": [], "ascii": [], "spacing": [], "ind": ["w:firstLineChars=\"200\" w:firstLine=\"420\""]}
+
+=== DOC DEFAULTS ===
+[
+ "<w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:asciiTheme=\"minorHAnsi\" w:eastAsiaTheme=\"minorEastAsia\" w:hAnsiTheme=\"minorHAnsi\" w:cstheme=\"minorBidi\"/><w:kern w:val=\"2\"/><w:sz w:val=\"21\"/><w:szCs w:val=\"24\"/><w:lang w:val=\"en-US\" w:eastAsia=\"zh-CN\" w:bidi=\"ar-SA\"/></w:rPr></w:rPrDefault><w:pPrDefault/></w:docDefaults>"
+]
+
+=== SECTPR ===
+<w:sectPr w:rsidR="00612CA6" w:rsidRPr="00093B56" w:rsidSect="00131B02"><w:pgSz w:w="11900" w:h="16840"/><w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="851" w:footer="992" w:gutter="0"/><w:cols w:space="425"/><w:docGrid w:type="lines" w:linePitch="312"/></w:sectPr>
+
+=== PARAGRAPH DIRECT FORMATTING ===
+--- p0 text='XXXXXX'
+  pPr: <w:pPr><w:jc w:val="center"/><w:rPr><w:sz w:val="36"/><w:szCs w:val="36"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="36"/><w:szCs w:val="36"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p1 text='——副标题（如有副标题）'
+  pPr: <w:pPr><w:ind w:firstLineChars="1150" w:firstLine="3220"/><w:rPr><w:sz w:val="28"/><w:szCs w:val="28"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="28"/><w:szCs w:val="28"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p2 text='作者 学号'
+  pPr: <w:pPr><w:jc w:val="center"/><w:rPr><w:sz w:val="24"/><w:szCs w:val="24"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="24"/><w:szCs w:val="24"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p3 text='（电子邮件邮箱******@**********）'
+  pPr: <w:pPr><w:jc w:val="center"/><w:rPr><w:sz w:val="24"/><w:szCs w:val="24"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="24"/><w:szCs w:val="24"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p4 text=''
+  pPr: <w:pPr><w:rPr><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="24"/><w:szCs w:val="24"/></w:rPr>
+--- p5 text='摘要：概述报告内容、实验完成情况，要求简明精炼、忠于原文、突出特色，摘要应具有独立性，即不阅读全文，也是获得文中必要的信息。'
+  pPr: <w:pPr><w:adjustRightInd w:val="0"/><w:snapToGrid w:val="0"/><w:spacing w:line="276" w:lineRule="auto"/><w:rPr><w:bCs/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:bCs/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p6 text=''
+  pPr: <w:pPr><w:adjustRightInd w:val="0"/><w:snapToGrid w:val="0"/><w:rPr><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p7 text='关键词：关键词1、关键词2、关键词3、关键词4'
+  pPr: <w:pPr><w:adjustRightInd w:val="0"/><w:snapToGrid w:val="0"/><w:rPr><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p8 text=''
+  pPr: <w:pPr><w:adjustRightInd w:val="0"/><w:snapToGrid w:val="0"/><w:rPr><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p9 text='引言'
+  pPr: <w:pPr><w:pStyle w:val="a0"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:spacing w:before="343" w:after="343"/><w:ind w:right="200"/><w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr>
+--- p10 text='引言一般简略介绍实验背景、实验总体情况、碰到的问题和解决思路等。'
+  pPr: <w:pPr><w:ind w:firstLine="360"/><w:rPr><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p11 text='一级标题'
+  pPr: <w:pPr><w:pStyle w:val="a0"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:spacing w:before="343" w:after="343"/><w:ind w:right="200"/><w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr>
+--- p12 text='正文内容XXXXXXXX'
+  pPr: <w:pPr><w:ind w:firstLine="360"/><w:rPr><w:rFonts w:hint="eastAsia"/><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:hint="eastAsia"/><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p13 text='一级标题'
+  pPr: <w:pPr><w:pStyle w:val="a0"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:spacing w:before="343" w:after="343"/><w:ind w:right="200"/><w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr>
+--- p14 text='正文内容'
+  pPr: <w:pPr><w:ind w:firstLine="360"/><w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p15 text='二级标题'
+  pPr: <w:pPr><w:pStyle w:val="a1"/><w:numPr><w:ilvl w:val="1"/><w:numId w:val="8"/></w:numPr><w:spacing w:before="249" w:after="249"/><w:rPr><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr>
+--- p16 text='正文内容'
+  pPr: <w:pPr><w:ind w:firstLine="360"/><w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p17 text='二级标题'
+  pPr: <w:pPr><w:pStyle w:val="a1"/><w:numPr><w:ilvl w:val="1"/><w:numId w:val="8"/></w:numPr><w:spacing w:before="249" w:after="249"/><w:rPr><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr>
+--- p18 text='正文内容'
+  pPr: <w:pPr><w:ind w:firstLine="360"/><w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p19 text='二级标题'
+  pPr: <w:pPr><w:pStyle w:val="a1"/><w:numPr><w:ilvl w:val="1"/><w:numId w:val="8"/></w:numPr><w:spacing w:before="249" w:after="249"/><w:rPr><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr>
+--- p20 text='三级标题'
+  pPr: <w:pPr><w:pStyle w:val="a2"/><w:numPr><w:ilvl w:val="2"/><w:numId w:val="8"/></w:numPr><w:spacing w:before="156" w:after="156"/><w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr>
+--- p21 text='正文内容'
+  pPr: <w:pPr><w:pStyle w:val="af0"/><w:ind w:left="360" w:firstLineChars="0" w:firstLine="0"/><w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p22 text=''
+  pPr: <w:pPr><w:rPr><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p23 text='三级标题'
+  pPr: <w:pPr><w:pStyle w:val="a2"/><w:numPr><w:ilvl w:val="2"/><w:numId w:val="8"/></w:numPr><w:spacing w:before="156" w:after="156"/><w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/><w:sz w:val="22"/><w:szCs w:val="22"/></w:rPr>
+--- p24 text='正文内容'
+  pPr: <w:pPr><w:pStyle w:val="af0"/><w:ind w:left="360" w:firstLineChars="0" w:firstLine="0"/><w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:color w:val="000000"/><w:sz w:val="22"/><w:szCs w:val="22"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p25 text=''
+  pPr: <w:pPr><w:pStyle w:val="af0"/><w:ind w:left="720" w:firstLineChars="0" w:firstLine="0"/><w:rPr><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p26 text='一级标题'
+  pPr: <w:pPr><w:pStyle w:val="a0"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:spacing w:before="343" w:after="343"/><w:ind w:right="200"/><w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr>
+--- p27 text='一级标题'
+  pPr: <w:pPr><w:pStyle w:val="a0"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:spacing w:before="343" w:after="343"/><w:ind w:right="200"/><w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr>
+--- p28 text='结语'
+  pPr: <w:pPr><w:pStyle w:val="a0"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="7"/></w:numPr><w:spacing w:before="343" w:after="343"/><w:ind w:right="200"/><w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rFonts w:ascii="Heiti SC Medium" w:eastAsia="Heiti SC Medium" w:hAnsi="Heiti SC Medium"/></w:rPr>
+--- p29 text='结语是对报告内容的总结。'
+  pPr: <w:pPr><w:ind w:firstLine="360"/><w:rPr><w:color w:val="000000"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:color w:val="000000"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+--- p30 text='   '
+  pPr: <w:pPr><w:pStyle w:val="6"/></w:pPr>
+  rPr: <w:rPr><w:rFonts w:hint="eastAsia"/></w:rPr>
+--- p31 text='ZHU Z, DONG S. A text hybrid clustering algorithm based on HowNet semantics [C]// ICAMCS 2011: 2011 International Conference on Advanced Materials and Computer Science. Zurich: Trans Tech Publications Ltd, 2011:474-476.'
+  pPr: <w:pPr><w:pStyle w:val="af"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr><w:rPr><w:rStyle w:val="ad"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rStyle w:val="ad"/></w:rPr>
+--- p32 text='董强,董振东.知网简介[EB/OL]. [2013-01-29]. http://www.keenage.com/. (DONG Q, DONG Z D. HowNet knowledge database [EB/OL]. [2013-01-29]. http://www.keenage.com/.)'
+  pPr: <w:pPr><w:pStyle w:val="af"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr><w:rPr><w:rStyle w:val="ad"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rStyle w:val="ad"/></w:rPr>
+--- p33 text='王小林,王义.改进的基于知网的词语相似度算法[J].计算机应用,2011,36(11):3075-3078. (WANG X L, WANG Y. Improved word similarity algorithm based on HowNet [J]. Journal of Computer Applications, 2011, 31(11): 3075-3077.)'
+  pPr: <w:pPr><w:pStyle w:val="af"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr><w:rPr><w:rStyle w:val="ad"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rStyle w:val="ad"/></w:rPr>
+--- p34 text='International Federation of Library Association and Institutions. Names of Persons: national usages for entry in catalogues [M].3rd ed. London: IFLA International Office for UBC, 1997.'
+  pPr: <w:pPr><w:pStyle w:val="af"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr><w:rPr><w:rStyle w:val="ad"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rStyle w:val="ad"/></w:rPr>
+--- p35 text='HAN J W, KAMBER M. 数据挖掘:概念与技术[M].范明,孟小峰,译.2版.北京: 机械工业出版社,2007: 263-266. (HAN J W, KAMBER M. Data mining: concepts and techniques [M]. FAN M, MENG X F, translated. 2nd ed. Beijing: China Machine Press, 2007: 263-266.)'
+  pPr: <w:pPr><w:pStyle w:val="af"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr><w:rPr><w:rStyle w:val="ad"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rStyle w:val="ad"/></w:rPr>
+--- p36 text='LARSEN B, AONE C. Fast and effective text mining using linear-time document clustering [C]// Proceedings of the fifth ACM SIGKDD international conference on Knowledge discovery and data mining. New York: ACM, 1999: 16-22.'
+  pPr: <w:pPr><w:pStyle w:val="af"/><w:numPr><w:ilvl w:val="0"/><w:numId w:val="4"/></w:numPr><w:rPr><w:rStyle w:val="ad"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:rStyle w:val="ad"/></w:rPr>
+--- p37 text=''
+  pPr: <w:pPr><w:adjustRightInd w:val="0"/><w:snapToGrid w:val="0"/><w:rPr><w:b/><w:bCs/><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr></w:pPr>
+  rPr: <w:rPr><w:b/><w:bCs/><w:sz w:val="21"/><w:szCs w:val="21"/><w:lang w:eastAsia="zh-CN"/></w:rPr>
+
+=== CORE PROPS ===
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><dc:title></dc:title><dc:subject></dc:subject><dc:creator>Microsoft Office User</dc:creator><cp:keywords></cp:keywords><dc:description></dc:description><cp:lastModifiedBy>Microsoft Office User</cp:lastModifiedBy><cp:revision>8</cp:revision><dcterms:created xsi:type="dcterms:W3CDTF">2020-04-01T09:50:00Z</dcterms:created><dcterms:modified xsi:type="dcterms:W3CDTF">2024-09-24T04:40:00Z</dcterms:modified></cp:coreProperties>

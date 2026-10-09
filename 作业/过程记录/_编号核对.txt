@@ -1,0 +1,18 @@
+样式 a0 (['一级标题']) numId=['2'] ilvl=[]
+样式 a1 (['二级标题']) numId=['2'] ilvl=['1']
+样式 a2 (['三级标题']) numId=['2'] ilvl=['2']
+numId=2 -> abstractNumId=1
+  ilvl=0 numFmt=['decimal'] lvlText=['%1']
+  ilvl=1 numFmt=['decimal'] lvlText=['%1.%2']
+  ilvl=2 numFmt=['decimal'] lvlText=['%1.%2.%3']
+  ilvl=3 numFmt=['decimal'] lvlText=['%1.%2.%3.%4']
+  ilvl=4 numFmt=['decimal'] lvlText=['%1.%2.%3.%4.%5']
+  ilvl=5 numFmt=['decimal'] lvlText=['%1.%2.%3.%4.%5.%6']
+  ilvl=6 numFmt=['decimal'] lvlText=['%1.%2.%3.%4.%5.%6.%7']
+  ilvl=7 numFmt=['decimal'] lvlText=['%1.%2.%3.%4.%5.%6.%7.%8']
+  ilvl=8 numFmt=['decimal'] lvlText=['%1.%2.%3.%4.%5.%6.%7.%8.%9']
+正文中标题样式 -> (numId, ilvl) 的用法统计：
+  a0  numId=()  ilvl=()   共 3 处
+  a0  numId=('2',)  ilvl=('0',)   共 3 处
+  a1  numId=('2',)  ilvl=('1',)   共 15 处
+  a2  numId=('2',)  ilvl=('2',)   共 9 处

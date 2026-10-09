@@ -1,0 +1,40 @@
+### a3
+<w:style w:type="paragraph" w:default="1" w:styleId="a3"><w:name w:val="Normal"/><w:qFormat/><w:rsid w:val="00093B56"/><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:kern w:val="0"/><w:sz w:val="20"/><w:szCs w:val="20"/><w:lang w:eastAsia="en-US"/></w:rPr></w:style>
+
+### FigureCaption
+<w:style w:type="paragraph" w:customStyle="1" w:styleId="FigureCaption"><w:name w:val="Figure Caption"/><w:basedOn w:val="a3"/><w:rsid w:val="00093B56"/><w:pPr><w:jc w:val="both"/></w:pPr><w:rPr><w:sz w:val="16"/><w:szCs w:val="16"/></w:rPr></w:style>
+
+### aa
+<w:style w:type="paragraph" w:customStyle="1" w:styleId="aa"><w:name w:val="摘要关键词"/><w:next w:val="a3"/><w:link w:val="Char"/><w:qFormat/><w:locked/><w:rsid w:val="00093B56"/><w:pPr><w:spacing w:line="312" w:lineRule="auto"/></w:pPr><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:cs="华文仿宋"/><w:bCs/><w:kern w:val="0"/><w:sz w:val="18"/><w:szCs w:val="21"/></w:rPr></w:style>
+
+### a2
+<w:style w:type="paragraph" w:customStyle="1" w:styleId="a2"><w:name w:val="三级标题"/><w:next w:val="a3"/><w:link w:val="Char0"/><w:qFormat/><w:rsid w:val="00612CA6"/><w:pPr><w:numPr><w:ilvl w:val="2"/><w:numId w:val="2"/></w:numPr><w:tabs><w:tab w:val="clear" w:pos="420"/><w:tab w:val="num" w:pos="360"/></w:tabs><w:spacing w:beforeLines="50" w:before="50" w:afterLines="50" w:after="50" w:line="312" w:lineRule="auto"/></w:pPr><w:rPr><w:rFonts w:ascii="Calibri" w:eastAsia="楷体_GB2312" w:hAnsi="Calibri" w:cs="Times New Roman"/><w:bCs/><w:kern w:val="0"/><w:sz w:val="18"/><w:szCs w:val="28"/></w:rPr></w:style>
+
+### a1
+<w:style w:type="paragraph" w:customStyle="1" w:styleId="a1"><w:name w:val="二级标题"/><w:next w:val="a3"/><w:link w:val="Char1"/><w:qFormat/><w:locked/><w:rsid w:val="00612CA6"/><w:pPr><w:numPr><w:ilvl w:val="1"/><w:numId w:val="2"/></w:numPr><w:tabs><w:tab w:val="clear" w:pos="420"/><w:tab w:val="num" w:pos="360"/></w:tabs><w:spacing w:beforeLines="80" w:before="80" w:afterLines="80" w:after="80" w:line="312" w:lineRule="auto"/></w:pPr><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:bCs/><w:kern w:val="0"/><w:sz w:val="18"/><w:szCs w:val="18"/></w:rPr></w:style>
+
+### ad
+<w:style w:type="character" w:styleId="ad"><w:name w:val="Strong"/><w:aliases w:val="文献"/><w:uiPriority w:val="22"/><w:rsid w:val="00612CA6"/><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman"/><w:b w:val="0"/><w:bCs/><w:sz w:val="15"/></w:rPr></w:style>
+
+### a
+<w:style w:type="paragraph" w:customStyle="1" w:styleId="a"><w:name w:val="固定"/><w:qFormat/><w:locked/><w:rsid w:val="00612CA6"/><w:pPr><w:numPr><w:numId w:val="3"/></w:numPr><w:spacing w:line="312" w:lineRule="auto"/></w:pPr><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:cs="华文仿宋"/><w:bCs/><w:kern w:val="0"/><w:sz w:val="18"/><w:szCs w:val="21"/></w:rPr></w:style>
+
+### a0
+<w:style w:type="paragraph" w:customStyle="1" w:styleId="a0"><w:name w:val="一级标题"/><w:next w:val="a3"/><w:link w:val="Char2"/><w:qFormat/><w:locked/><w:rsid w:val="00612CA6"/><w:pPr><w:numPr><w:numId w:val="2"/></w:numPr><w:spacing w:beforeLines="110" w:before="110" w:afterLines="110" w:after="110"/><w:ind w:rightChars="100" w:right="100"/></w:pPr><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:bCs/><w:iCs/><w:kern w:val="0"/><w:sz w:val="24"/></w:rPr></w:style>
+
+### af
+<w:style w:type="paragraph" w:customStyle="1" w:styleId="af"><w:name w:val="文献列表"/><w:link w:val="Char3"/><w:qFormat/><w:rsid w:val="00612CA6"/><w:pPr><w:spacing w:line="312" w:lineRule="auto"/></w:pPr><w:rPr><w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:kern w:val="0"/><w:sz w:val="15"/></w:rPr></w:style>
+
+### af0
+<w:style w:type="paragraph" w:styleId="af0"><w:name w:val="List Paragraph"/><w:basedOn w:val="a3"/><w:uiPriority w:val="34"/><w:qFormat/><w:rsid w:val="004C49AC"/><w:pPr><w:ind w:firstLineChars="200" w:firstLine="420"/></w:pPr></w:style>
+
+=== ABSTRACT NUMS ===
+<w:num w:numId="4" w16cid:durableId="873923920"><w:abstractNumId w:val="2"/></w:num>
+<w:num w:numId="7" w16cid:durableId="1884244268"><w:abstractNumId w:val="4"/></w:num>
+<w:num w:numId="8" w16cid:durableId="467665993"><w:abstractNumId w:val="5"/></w:num>
+abstract 0: fmt=['none', 'none', 'none', 'none', 'none', 'none', 'none', 'none', 'none'] text=['%1摘  要: ', '关键词: ', '中图分类号:', '%1Abstract: ', '%1Keywords: ', '%1参考文献', '%1', '%1', '%1']
+abstract 1: fmt=['decimal', 'decimal', 'decimal', 'decimal', 'decimal', 'decimal', 'decimal', 'decimal', 'decimal'] text=['%1', '%1.%2', '%1.%2.%3', '%1.%2.%3.%4', '%1.%2.%3.%4.%5', '%1.%2.%3.%4.%5.%6', '%1.%2.%3.%4.%5.%6.%7', '%1.%2.%3.%4.%5.%6.%7.%8', '%1.%2.%3.%4.%5.%6.%7.%8.%9']
+abstract 2: fmt=['decimal', 'lowerLetter', 'lowerRoman', 'decimal', 'lowerLetter', 'lowerRoman', 'decimal', 'lowerLetter', 'lowerRoman'] text=['[%1]', '%2)', '%3.', '%4.', '%5)', '%6.', '%7.', '%8)', '%9.']
+abstract 3: fmt=['decimal', 'lowerLetter', 'lowerRoman', 'decimal', 'lowerLetter', 'lowerRoman', 'decimal', 'lowerLetter', 'lowerRoman'] text=['（%1）', '%2)', '%3.', '%4.', '%5)', '%6.', '%7.', '%8)', '%9.']
+abstract 4: fmt=['decimal', 'lowerLetter', 'lowerRoman', 'decimal', 'lowerLetter', 'lowerRoman', 'decimal', 'lowerLetter', 'lowerRoman'] text=['%1', '%2)', '%3.', '%4.', '%5)', '%6.', '%7.', '%8)', '%9.']
+abstract 5: fmt=['decimal', 'decimal', 'decimal', 'decimal', 'decimal', 'decimal', 'decimal', 'decimal', 'decimal'] text=['%1', '%1.%2', '%1.%2.%3', '%1.%2.%3.%4', '%1.%2.%3.%4.%5', '%1.%2.%3.%4.%5.%6', '%1.%2.%3.%4.%5.%6.%7', '%1.%2.%3.%4.%5.%6.%7.%8', '%1.%2.%3.%4.%5.%6.%7.%8.%9']
